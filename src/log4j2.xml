@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+
+  <Appenders>
+  	<Console name="console" target="SYSTEM_OUT" >
+  		<PatternLayout pattern="%-5p : [ %msg ] :: Class => %c{1}:: Method => %M :: %d{dd/MM/yyy - hh:mm:ss} ::%n" />
+  	</Console>
+  	<!-- <File name="service-file" fileName="logs/p02-service.log" >
+  		<PatternLayout pattern="%-5p : %d{dd/MM/yyy - hh:mm:ss}, %m%n" />
+  	</File>
+  	<File name="examples-file" fileName="logs/p02-examples.log" >
+  		<PatternLayout pattern="%-5p : %d{dd/MM/yyy - hh:mm:ss}, %m%n" />
+  	</File> -->
+  </Appenders>
+  
+  <Loggers>
+  
+    <Root level="info">
+      <AppenderRef ref="console" />
+    </Root>
+    
+   <!--  <Logger name="org.mql.java.logging" level="info" additivity="true">
+    	<AppenderRef ref="service-file" />
+    </Logger>
+    
+    <Logger name="org.mql.java.logging.Examples" level="trace" additivity="false">
+    	<AppenderRef ref="examples-file" />
+    </Logger> -->
+    
+  </Loggers>
+  
+</Configuration>

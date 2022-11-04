@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu-bar icons-folder="resources/swing/icons">
+	<menu name="File" class-name="">
+		<item name="New" icon="new.gif" method="newFile">Create a new File</item>
+		<item name="Open" icon="open.gif" method="openFile">Open a File</item>
+		<item name="Save" icon="save.gif">Save the current File</item>
+		<item name="Save as">Save with a new name</item>
+		<separator />
+		<item name="Exit" method="exit">Close the application</item>
+	</menu>
+	<menu name="Edit">
+		<item name="Copy" icon="copy.gif">Copy the selected text</item>
+		<item name="Cut" icon="cut.gif">Cut the selected text</item>
+		<item name="Pase" icon="paste.gif">Paste the copied text</item>
+	</menu>
+</menu-bar>

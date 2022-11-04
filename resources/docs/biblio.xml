@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- salut tous le monde -->
+<!-- Bibliothèque de documents -->
+<biblio>
+	<!-- Liste des documents -->
+	<document id="1003">
+		<!-- Cas d'un document avec 2 titres -->
+		<title lang="fr">Ingénierie de l'objet en Java</title>
+		<title lang="en">Object Engineering in Java</title>
+		<price>876</price>
+		<authors>
+			<author id="112">
+				<name>James Gosling</name>
+				<country>Canada</country>
+				<birthday day="19" month="05" year="1955" />
+			</author>
+		</authors>
+	</document>
+	<document id="2431">
+		<title>Tests unitaires en Java avec JUnit</title>
+		<price>670</price>
+		<authors>
+			<!-- Deux auteurs pour ce document -->
+			<author id="120">
+				<name>Erich Gamma</name>
+				<country>Suisse</country>
+				<birthday day="13" month="03" year="1961" />
+			</author>
+			<author id="112">
+				<name>James Gosling</name>
+				<country>Canada</country>
+				<birthday day="19" month="05" year="1955" />
+			</author>
+		</authors>
+	</document>
+	<document id="1560">
+		<title lang = "fr">Développement Web avec JavaScript</title>
+		<title lang = "en">Devloppement web white JavaScript</title>
+		<title lang = "ar">تطوير الويب باستخدام JavaScript</title>
+		<price>780</price>
+		<authors>
+			<author id="432">
+				<name>Brendan Eich</name>
+				<country>USA</country>
+				<birthday day="04" month="07" year="1961" />
+			</author>
+		</authors>
+	</document>
+</biblio>
